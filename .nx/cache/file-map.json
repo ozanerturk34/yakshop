@@ -1,0 +1,183 @@
+{
+  "version": "6.0",
+  "nxVersion": "18.0.4",
+  "deps": {
+    "nx": "^18.0.4"
+  },
+  "pathMappings": {},
+  "nxJsonPlugins": [],
+  "fileMap": {
+    "nonProjectFiles": [
+      {
+        "file": ".gitignore",
+        "hash": "11612638887042922903"
+      },
+      {
+        "file": "nx.json",
+        "hash": "2216320761187262993"
+      },
+      {
+        "file": "package.json",
+        "hash": "11356574832514112190"
+      },
+      {
+        "file": "pnpm-lock.yaml",
+        "hash": "11806748368587359757"
+      },
+      {
+        "file": "pnpm-workspace.yaml",
+        "hash": "9750177317466281158"
+      }
+    ],
+    "projectFileMap": {
+      "xml-herd-builder": [
+        {
+          "file": "packages/xml-herd-builder/package.json",
+          "hash": "16820653933266334908",
+          "deps": [
+            "shared-types",
+            "npm:xml2js",
+            "npm:@types/node",
+            "npm:@types/xml2js",
+            "npm:typescript"
+          ]
+        },
+        {
+          "file": "packages/xml-herd-builder/src/index.ts",
+          "hash": "16064524915452091510"
+        },
+        {
+          "file": "packages/xml-herd-builder/src/main.ts",
+          "hash": "15747846031397910571"
+        },
+        {
+          "file": "packages/xml-herd-builder/tsconfig.json",
+          "hash": "17609371490828913548"
+        }
+      ],
+      "yakshop-api": [
+        {
+          "file": "apps/yakshop-api/.eslintrc.js",
+          "hash": "7461846271827386206"
+        },
+        {
+          "file": "apps/yakshop-api/.gitignore",
+          "hash": "8691869996817911972"
+        },
+        {
+          "file": "apps/yakshop-api/.prettierrc",
+          "hash": "9555875142989992828"
+        },
+        {
+          "file": "apps/yakshop-api/README.md",
+          "hash": "7000741120820144227"
+        },
+        {
+          "file": "apps/yakshop-api/data/herd.xml",
+          "hash": "9044850537635879109"
+        },
+        {
+          "file": "apps/yakshop-api/nest-cli.json",
+          "hash": "789240945379598733"
+        },
+        {
+          "file": "apps/yakshop-api/package.json",
+          "hash": "10065245554682637710",
+          "deps": [
+            "npm:@nestjs/common",
+            "npm:@nestjs/core",
+            "npm:@nestjs/platform-express",
+            "npm:reflect-metadata",
+            "npm:rxjs",
+            "shared-types",
+            "xml-herd-builder",
+            "npm:@nestjs/cli",
+            "npm:@nestjs/schematics",
+            "npm:@nestjs/testing",
+            "npm:@swc/cli",
+            "npm:@swc/core",
+            "npm:@types/express",
+            "npm:@types/jest",
+            "npm:@types/node",
+            "npm:@types/supertest",
+            "npm:@typescript-eslint/eslint-plugin",
+            "npm:@typescript-eslint/parser",
+            "npm:eslint",
+            "npm:eslint-config-prettier",
+            "npm:eslint-plugin-prettier",
+            "npm:jest",
+            "npm:prettier",
+            "npm:source-map-support",
+            "npm:supertest",
+            "npm:ts-jest",
+            "npm:ts-loader",
+            "npm:ts-node",
+            "npm:tsconfig-paths",
+            "npm:typescript"
+          ]
+        },
+        {
+          "file": "apps/yakshop-api/src/app.controller.spec.ts",
+          "hash": "6820863429723628382"
+        },
+        {
+          "file": "apps/yakshop-api/src/app.controller.ts",
+          "hash": "4552329938751326480"
+        },
+        {
+          "file": "apps/yakshop-api/src/app.module.ts",
+          "hash": "11673476679848632172"
+        },
+        {
+          "file": "apps/yakshop-api/src/app.service.ts",
+          "hash": "1323195476305646483"
+        },
+        {
+          "file": "apps/yakshop-api/src/main.ts",
+          "hash": "16836780892212170881"
+        },
+        {
+          "file": "apps/yakshop-api/test/app.e2e-spec.ts",
+          "hash": "14775275539769314177"
+        },
+        {
+          "file": "apps/yakshop-api/test/jest-e2e.json",
+          "hash": "6063259469280280740"
+        },
+        {
+          "file": "apps/yakshop-api/tsconfig.build.json",
+          "hash": "5591257429369579519"
+        },
+        {
+          "file": "apps/yakshop-api/tsconfig.json",
+          "hash": "997308860317313382"
+        }
+      ],
+      "shared-types": [
+        {
+          "file": "packages/shared-types/README.md",
+          "hash": "13646173934220707221"
+        },
+        {
+          "file": "packages/shared-types/package.json",
+          "hash": "112868870594697968",
+          "deps": [
+            "npm:typescript"
+          ]
+        },
+        {
+          "file": "packages/shared-types/src/index.ts",
+          "hash": "2074524706256101245"
+        },
+        {
+          "file": "packages/shared-types/src/models.ts",
+          "hash": "5710800092114625949"
+        },
+        {
+          "file": "packages/shared-types/tsconfig.json",
+          "hash": "17609371490828913548"
+        }
+      ]
+    }
+  }
+}

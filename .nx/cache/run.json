@@ -1,0 +1,43 @@
+{
+  "run": {
+    "command": "nx run-many --target=build --all",
+    "startTime": "2024-02-21T15:41:53.997Z",
+    "endTime": "2024-02-21T15:41:58.488Z",
+    "inner": false
+  },
+  "tasks": [
+    {
+      "taskId": "shared-types:build",
+      "target": "build",
+      "projectName": "shared-types",
+      "hash": "344797292437247794",
+      "startTime": "2024-02-21T15:41:54.005Z",
+      "endTime": "2024-02-21T15:41:55.044Z",
+      "params": "",
+      "cacheStatus": "cache-miss",
+      "status": 0
+    },
+    {
+      "taskId": "xml-herd-builder:build",
+      "target": "build",
+      "projectName": "xml-herd-builder",
+      "hash": "1357527608971941069",
+      "startTime": "2024-02-21T15:41:55.045Z",
+      "endTime": "2024-02-21T15:41:56.217Z",
+      "params": "",
+      "cacheStatus": "cache-miss",
+      "status": 0
+    },
+    {
+      "taskId": "yakshop-api:build",
+      "target": "build",
+      "projectName": "yakshop-api",
+      "hash": "15894634609728608570",
+      "startTime": "2024-02-21T15:41:56.218Z",
+      "endTime": "2024-02-21T15:41:58.488Z",
+      "params": "",
+      "cacheStatus": "cache-miss",
+      "status": 0
+    }
+  ]
+}
