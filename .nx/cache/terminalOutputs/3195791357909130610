@@ -1,0 +1,183 @@
+
+> yakshop-ui@0.1.0 build /Users/serturk/Documents/code/yakshop/apps/yakshop-ui
+> next build
+
+  [1m[38;2;173;127;168m ▲ Next.js 14.1.0[39m[22m
+
+ [37m[1m [22m[39m Creating an optimized production build ...
+ [37m[1m [22m[39m Disabled SWC as replacement for Babel because of custom Babel configuration ".babelrc" https://nextjs.org/docs/messages/swc-disabled
+ [37m[1m [22m[39m Using external babel configuration from /Users/serturk/Documents/code/yakshop/apps/yakshop-ui/.babelrc
+[31mFailed to compile.
+[39m
+../../node_modules/.pnpm/next@14.1.0_react-dom@18.2.0_react@18.2.0/node_modules/next/dist/pages/_app.js
+Error: Cannot find module '@babel/preset-env'
+Require stack:
+- /Users/serturk/Documents/code/yakshop/node_modules/.pnpm/next@14.1.0_react-dom@18.2.0_react@18.2.0/node_modules/next/dist/compiled/babel/bundle.js
+- /Users/serturk/Documents/code/yakshop/node_modules/.pnpm/next@14.1.0_react-dom@18.2.0_react@18.2.0/node_modules/next/dist/compiled/babel/traverse.js
+- /Users/serturk/Documents/code/yakshop/node_modules/.pnpm/next@14.1.0_react-dom@18.2.0_react@18.2.0/node_modules/next/dist/build/babel/loader/transform.js
+- /Users/serturk/Documents/code/yakshop/node_modules/.pnpm/next@14.1.0_react-dom@18.2.0_react@18.2.0/node_modules/next/dist/build/babel/loader/index.js
+- /Users/serturk/Documents/code/yakshop/node_modules/.pnpm/next@14.1.0_react-dom@18.2.0_react@18.2.0/node_modules/next/dist/compiled/loader-runner/LoaderRunner.js
+- /Users/serturk/Documents/code/yakshop/node_modules/.pnpm/next@14.1.0_react-dom@18.2.0_react@18.2.0/node_modules/next/dist/compiled/webpack/bundle5.js
+- /Users/serturk/Documents/code/yakshop/node_modules/.pnpm/next@14.1.0_react-dom@18.2.0_react@18.2.0/node_modules/next/dist/compiled/webpack/webpack.js
+- /Users/serturk/Documents/code/yakshop/node_modules/.pnpm/next@14.1.0_react-dom@18.2.0_react@18.2.0/node_modules/next/dist/build/compiler.js
+- /Users/serturk/Documents/code/yakshop/node_modules/.pnpm/next@14.1.0_react-dom@18.2.0_react@18.2.0/node_modules/next/dist/build/webpack-build/impl.js
+- /Users/serturk/Documents/code/yakshop/node_modules/.pnpm/next@14.1.0_react-dom@18.2.0_react@18.2.0/node_modules/next/dist/compiled/jest-worker/processChild.js
+
+Make sure that all the Babel plugins and presets you are using
+are defined as dependencies or devDependencies in your package.json
+file. It's possible that the missing plugin is loaded by a preset
+you are using that forgot to add the plugin to its dependencies: you
+can workaround this problem by explicitly adding the missing package
+to your top-level package.json.
+
+    at Module._resolveFilename (node:internal/modules/cjs/loader:1144:15)
+    at /Users/serturk/Documents/code/yakshop/node_modules/.pnpm/next@14.1.0_react-dom@18.2.0_react@18.2.0/node_modules/next/dist/server/require-hook.js:55:36
+    at resolve (node:internal/modules/helpers:187:19)
+    at tryRequireResolve (/Users/serturk/Documents/code/yakshop/node_modules/.pnpm/next@14.1.0_react-dom@18.2.0_react@18.2.0/node_modules/next/dist/compiled/babel/bundle.js:1:103356)
+    at resolveStandardizedNameForRequire (/Users/serturk/Documents/code/yakshop/node_modules/.pnpm/next@14.1.0_react-dom@18.2.0_react@18.2.0/node_modules/next/dist/compiled/babel/bundle.js:1:103708)
+    at resolveStandardizedName (/Users/serturk/Documents/code/yakshop/node_modules/.pnpm/next@14.1.0_react-dom@18.2.0_react@18.2.0/node_modules/next/dist/compiled/babel/bundle.js:1:104114)
+    at loadPreset (/Users/serturk/Documents/code/yakshop/node_modules/.pnpm/next@14.1.0_react-dom@18.2.0_react@18.2.0/node_modules/next/dist/compiled/babel/bundle.js:1:101628)
+    at loadPreset.next (<anonymous>)
+    at createDescriptor (/Users/serturk/Documents/code/yakshop/node_modules/.pnpm/next@14.1.0_react-dom@18.2.0_react@18.2.0/node_modules/next/dist/compiled/babel/bundle.js:1:86901)
+    at createDescriptor.next (<anonymous>)
+
+../../node_modules/.pnpm/next@14.1.0_react-dom@18.2.0_react@18.2.0/node_modules/next/dist/pages/_document.js
+Error: Cannot find module '@babel/preset-env'
+Require stack:
+- /Users/serturk/Documents/code/yakshop/node_modules/.pnpm/next@14.1.0_react-dom@18.2.0_react@18.2.0/node_modules/next/dist/compiled/babel/bundle.js
+- /Users/serturk/Documents/code/yakshop/node_modules/.pnpm/next@14.1.0_react-dom@18.2.0_react@18.2.0/node_modules/next/dist/compiled/babel/traverse.js
+- /Users/serturk/Documents/code/yakshop/node_modules/.pnpm/next@14.1.0_react-dom@18.2.0_react@18.2.0/node_modules/next/dist/build/babel/loader/transform.js
+- /Users/serturk/Documents/code/yakshop/node_modules/.pnpm/next@14.1.0_react-dom@18.2.0_react@18.2.0/node_modules/next/dist/build/babel/loader/index.js
+- /Users/serturk/Documents/code/yakshop/node_modules/.pnpm/next@14.1.0_react-dom@18.2.0_react@18.2.0/node_modules/next/dist/compiled/loader-runner/LoaderRunner.js
+- /Users/serturk/Documents/code/yakshop/node_modules/.pnpm/next@14.1.0_react-dom@18.2.0_react@18.2.0/node_modules/next/dist/compiled/webpack/bundle5.js
+- /Users/serturk/Documents/code/yakshop/node_modules/.pnpm/next@14.1.0_react-dom@18.2.0_react@18.2.0/node_modules/next/dist/compiled/webpack/webpack.js
+- /Users/serturk/Documents/code/yakshop/node_modules/.pnpm/next@14.1.0_react-dom@18.2.0_react@18.2.0/node_modules/next/dist/build/compiler.js
+- /Users/serturk/Documents/code/yakshop/node_modules/.pnpm/next@14.1.0_react-dom@18.2.0_react@18.2.0/node_modules/next/dist/build/webpack-build/impl.js
+- /Users/serturk/Documents/code/yakshop/node_modules/.pnpm/next@14.1.0_react-dom@18.2.0_react@18.2.0/node_modules/next/dist/compiled/jest-worker/processChild.js
+
+Make sure that all the Babel plugins and presets you are using
+are defined as dependencies or devDependencies in your package.json
+file. It's possible that the missing plugin is loaded by a preset
+you are using that forgot to add the plugin to its dependencies: you
+can workaround this problem by explicitly adding the missing package
+to your top-level package.json.
+
+    at Module._resolveFilename (node:internal/modules/cjs/loader:1144:15)
+    at /Users/serturk/Documents/code/yakshop/node_modules/.pnpm/next@14.1.0_react-dom@18.2.0_react@18.2.0/node_modules/next/dist/server/require-hook.js:55:36
+    at resolve (node:internal/modules/helpers:187:19)
+    at tryRequireResolve (/Users/serturk/Documents/code/yakshop/node_modules/.pnpm/next@14.1.0_react-dom@18.2.0_react@18.2.0/node_modules/next/dist/compiled/babel/bundle.js:1:103356)
+    at resolveStandardizedNameForRequire (/Users/serturk/Documents/code/yakshop/node_modules/.pnpm/next@14.1.0_react-dom@18.2.0_react@18.2.0/node_modules/next/dist/compiled/babel/bundle.js:1:103708)
+    at resolveStandardizedName (/Users/serturk/Documents/code/yakshop/node_modules/.pnpm/next@14.1.0_react-dom@18.2.0_react@18.2.0/node_modules/next/dist/compiled/babel/bundle.js:1:104114)
+    at loadPreset (/Users/serturk/Documents/code/yakshop/node_modules/.pnpm/next@14.1.0_react-dom@18.2.0_react@18.2.0/node_modules/next/dist/compiled/babel/bundle.js:1:101628)
+    at loadPreset.next (<anonymous>)
+    at createDescriptor (/Users/serturk/Documents/code/yakshop/node_modules/.pnpm/next@14.1.0_react-dom@18.2.0_react@18.2.0/node_modules/next/dist/compiled/babel/bundle.js:1:86901)
+    at createDescriptor.next (<anonymous>)
+
+../../node_modules/.pnpm/next@14.1.0_react-dom@18.2.0_react@18.2.0/node_modules/next/dist/pages/_error.js
+Error: Cannot find module '@babel/preset-env'
+Require stack:
+- /Users/serturk/Documents/code/yakshop/node_modules/.pnpm/next@14.1.0_react-dom@18.2.0_react@18.2.0/node_modules/next/dist/compiled/babel/bundle.js
+- /Users/serturk/Documents/code/yakshop/node_modules/.pnpm/next@14.1.0_react-dom@18.2.0_react@18.2.0/node_modules/next/dist/compiled/babel/traverse.js
+- /Users/serturk/Documents/code/yakshop/node_modules/.pnpm/next@14.1.0_react-dom@18.2.0_react@18.2.0/node_modules/next/dist/build/babel/loader/transform.js
+- /Users/serturk/Documents/code/yakshop/node_modules/.pnpm/next@14.1.0_react-dom@18.2.0_react@18.2.0/node_modules/next/dist/build/babel/loader/index.js
+- /Users/serturk/Documents/code/yakshop/node_modules/.pnpm/next@14.1.0_react-dom@18.2.0_react@18.2.0/node_modules/next/dist/compiled/loader-runner/LoaderRunner.js
+- /Users/serturk/Documents/code/yakshop/node_modules/.pnpm/next@14.1.0_react-dom@18.2.0_react@18.2.0/node_modules/next/dist/compiled/webpack/bundle5.js
+- /Users/serturk/Documents/code/yakshop/node_modules/.pnpm/next@14.1.0_react-dom@18.2.0_react@18.2.0/node_modules/next/dist/compiled/webpack/webpack.js
+- /Users/serturk/Documents/code/yakshop/node_modules/.pnpm/next@14.1.0_react-dom@18.2.0_react@18.2.0/node_modules/next/dist/build/compiler.js
+- /Users/serturk/Documents/code/yakshop/node_modules/.pnpm/next@14.1.0_react-dom@18.2.0_react@18.2.0/node_modules/next/dist/build/webpack-build/impl.js
+- /Users/serturk/Documents/code/yakshop/node_modules/.pnpm/next@14.1.0_react-dom@18.2.0_react@18.2.0/node_modules/next/dist/compiled/jest-worker/processChild.js
+
+Make sure that all the Babel plugins and presets you are using
+are defined as dependencies or devDependencies in your package.json
+file. It's possible that the missing plugin is loaded by a preset
+you are using that forgot to add the plugin to its dependencies: you
+can workaround this problem by explicitly adding the missing package
+to your top-level package.json.
+
+    at Module._resolveFilename (node:internal/modules/cjs/loader:1144:15)
+    at /Users/serturk/Documents/code/yakshop/node_modules/.pnpm/next@14.1.0_react-dom@18.2.0_react@18.2.0/node_modules/next/dist/server/require-hook.js:55:36
+    at resolve (node:internal/modules/helpers:187:19)
+    at tryRequireResolve (/Users/serturk/Documents/code/yakshop/node_modules/.pnpm/next@14.1.0_react-dom@18.2.0_react@18.2.0/node_modules/next/dist/compiled/babel/bundle.js:1:103356)
+    at resolveStandardizedNameForRequire (/Users/serturk/Documents/code/yakshop/node_modules/.pnpm/next@14.1.0_react-dom@18.2.0_react@18.2.0/node_modules/next/dist/compiled/babel/bundle.js:1:103708)
+    at resolveStandardizedName (/Users/serturk/Documents/code/yakshop/node_modules/.pnpm/next@14.1.0_react-dom@18.2.0_react@18.2.0/node_modules/next/dist/compiled/babel/bundle.js:1:104114)
+    at loadPreset (/Users/serturk/Documents/code/yakshop/node_modules/.pnpm/next@14.1.0_react-dom@18.2.0_react@18.2.0/node_modules/next/dist/compiled/babel/bundle.js:1:101628)
+    at loadPreset.next (<anonymous>)
+    at createDescriptor (/Users/serturk/Documents/code/yakshop/node_modules/.pnpm/next@14.1.0_react-dom@18.2.0_react@18.2.0/node_modules/next/dist/compiled/babel/bundle.js:1:86901)
+    at createDescriptor.next (<anonymous>)
+
+Import trace for requested module:
+../../node_modules/.pnpm/next@14.1.0_react-dom@18.2.0_react@18.2.0/node_modules/next/dist/pages/_error.js
+
+./src/app/layout.tsx
+Error: Cannot find module '@babel/preset-env'
+Require stack:
+- /Users/serturk/Documents/code/yakshop/node_modules/.pnpm/next@14.1.0_react-dom@18.2.0_react@18.2.0/node_modules/next/dist/compiled/babel/bundle.js
+- /Users/serturk/Documents/code/yakshop/node_modules/.pnpm/next@14.1.0_react-dom@18.2.0_react@18.2.0/node_modules/next/dist/compiled/babel/traverse.js
+- /Users/serturk/Documents/code/yakshop/node_modules/.pnpm/next@14.1.0_react-dom@18.2.0_react@18.2.0/node_modules/next/dist/build/babel/loader/transform.js
+- /Users/serturk/Documents/code/yakshop/node_modules/.pnpm/next@14.1.0_react-dom@18.2.0_react@18.2.0/node_modules/next/dist/build/babel/loader/index.js
+- /Users/serturk/Documents/code/yakshop/node_modules/.pnpm/next@14.1.0_react-dom@18.2.0_react@18.2.0/node_modules/next/dist/compiled/loader-runner/LoaderRunner.js
+- /Users/serturk/Documents/code/yakshop/node_modules/.pnpm/next@14.1.0_react-dom@18.2.0_react@18.2.0/node_modules/next/dist/compiled/webpack/bundle5.js
+- /Users/serturk/Documents/code/yakshop/node_modules/.pnpm/next@14.1.0_react-dom@18.2.0_react@18.2.0/node_modules/next/dist/compiled/webpack/webpack.js
+- /Users/serturk/Documents/code/yakshop/node_modules/.pnpm/next@14.1.0_react-dom@18.2.0_react@18.2.0/node_modules/next/dist/build/compiler.js
+- /Users/serturk/Documents/code/yakshop/node_modules/.pnpm/next@14.1.0_react-dom@18.2.0_react@18.2.0/node_modules/next/dist/build/webpack-build/impl.js
+- /Users/serturk/Documents/code/yakshop/node_modules/.pnpm/next@14.1.0_react-dom@18.2.0_react@18.2.0/node_modules/next/dist/compiled/jest-worker/processChild.js
+
+Make sure that all the Babel plugins and presets you are using
+are defined as dependencies or devDependencies in your package.json
+file. It's possible that the missing plugin is loaded by a preset
+you are using that forgot to add the plugin to its dependencies: you
+can workaround this problem by explicitly adding the missing package
+to your top-level package.json.
+
+    at Module._resolveFilename (node:internal/modules/cjs/loader:1144:15)
+    at /Users/serturk/Documents/code/yakshop/node_modules/.pnpm/next@14.1.0_react-dom@18.2.0_react@18.2.0/node_modules/next/dist/server/require-hook.js:55:36
+    at resolve (node:internal/modules/helpers:187:19)
+    at tryRequireResolve (/Users/serturk/Documents/code/yakshop/node_modules/.pnpm/next@14.1.0_react-dom@18.2.0_react@18.2.0/node_modules/next/dist/compiled/babel/bundle.js:1:103356)
+    at resolveStandardizedNameForRequire (/Users/serturk/Documents/code/yakshop/node_modules/.pnpm/next@14.1.0_react-dom@18.2.0_react@18.2.0/node_modules/next/dist/compiled/babel/bundle.js:1:103708)
+    at resolveStandardizedName (/Users/serturk/Documents/code/yakshop/node_modules/.pnpm/next@14.1.0_react-dom@18.2.0_react@18.2.0/node_modules/next/dist/compiled/babel/bundle.js:1:104114)
+    at loadPreset (/Users/serturk/Documents/code/yakshop/node_modules/.pnpm/next@14.1.0_react-dom@18.2.0_react@18.2.0/node_modules/next/dist/compiled/babel/bundle.js:1:101628)
+    at loadPreset.next (<anonymous>)
+    at createDescriptor (/Users/serturk/Documents/code/yakshop/node_modules/.pnpm/next@14.1.0_react-dom@18.2.0_react@18.2.0/node_modules/next/dist/compiled/babel/bundle.js:1:86901)
+    at createDescriptor.next (<anonymous>)
+
+Import trace for requested module:
+./src/app/layout.tsx
+
+./src/app/page.tsx
+Error: Cannot find module '@babel/preset-env'
+Require stack:
+- /Users/serturk/Documents/code/yakshop/node_modules/.pnpm/next@14.1.0_react-dom@18.2.0_react@18.2.0/node_modules/next/dist/compiled/babel/bundle.js
+- /Users/serturk/Documents/code/yakshop/node_modules/.pnpm/next@14.1.0_react-dom@18.2.0_react@18.2.0/node_modules/next/dist/compiled/babel/traverse.js
+- /Users/serturk/Documents/code/yakshop/node_modules/.pnpm/next@14.1.0_react-dom@18.2.0_react@18.2.0/node_modules/next/dist/build/babel/loader/transform.js
+- /Users/serturk/Documents/code/yakshop/node_modules/.pnpm/next@14.1.0_react-dom@18.2.0_react@18.2.0/node_modules/next/dist/build/babel/loader/index.js
+- /Users/serturk/Documents/code/yakshop/node_modules/.pnpm/next@14.1.0_react-dom@18.2.0_react@18.2.0/node_modules/next/dist/compiled/loader-runner/LoaderRunner.js
+- /Users/serturk/Documents/code/yakshop/node_modules/.pnpm/next@14.1.0_react-dom@18.2.0_react@18.2.0/node_modules/next/dist/compiled/webpack/bundle5.js
+- /Users/serturk/Documents/code/yakshop/node_modules/.pnpm/next@14.1.0_react-dom@18.2.0_react@18.2.0/node_modules/next/dist/compiled/webpack/webpack.js
+- /Users/serturk/Documents/code/yakshop/node_modules/.pnpm/next@14.1.0_react-dom@18.2.0_react@18.2.0/node_modules/next/dist/build/compiler.js
+- /Users/serturk/Documents/code/yakshop/node_modules/.pnpm/next@14.1.0_react-dom@18.2.0_react@18.2.0/node_modules/next/dist/build/webpack-build/impl.js
+- /Users/serturk/Documents/code/yakshop/node_modules/.pnpm/next@14.1.0_react-dom@18.2.0_react@18.2.0/node_modules/next/dist/compiled/jest-worker/processChild.js
+
+Make sure that all the Babel plugins and presets you are using
+are defined as dependencies or devDependencies in your package.json
+file. It's possible that the missing plugin is loaded by a preset
+you are using that forgot to add the plugin to its dependencies: you
+can workaround this problem by explicitly adding the missing package
+to your top-level package.json.
+
+    at Module._resolveFilename (node:internal/modules/cjs/loader:1144:15)
+    at /Users/serturk/Documents/code/yakshop/node_modules/.pnpm/next@14.1.0_react-dom@18.2.0_react@18.2.0/node_modules/next/dist/server/require-hook.js:55:36
+    at resolve (node:internal/modules/helpers:187:19)
+    at tryRequireResolve (/Users/serturk/Documents/code/yakshop/node_modules/.pnpm/next@14.1.0_react-dom@18.2.0_react@18.2.0/node_modules/next/dist/compiled/babel/bundle.js:1:103356)
+    at resolveStandardizedNameForRequire (/Users/serturk/Documents/code/yakshop/node_modules/.pnpm/next@14.1.0_react-dom@18.2.0_react@18.2.0/node_modules/next/dist/compiled/babel/bundle.js:1:103708)
+    at resolveStandardizedName (/Users/serturk/Documents/code/yakshop/node_modules/.pnpm/next@14.1.0_react-dom@18.2.0_react@18.2.0/node_modules/next/dist/compiled/babel/bundle.js:1:104114)
+    at loadPreset (/Users/serturk/Documents/code/yakshop/node_modules/.pnpm/next@14.1.0_react-dom@18.2.0_react@18.2.0/node_modules/next/dist/compiled/babel/bundle.js:1:101628)
+    at loadPreset.next (<anonymous>)
+    at createDescriptor (/Users/serturk/Documents/code/yakshop/node_modules/.pnpm/next@14.1.0_react-dom@18.2.0_react@18.2.0/node_modules/next/dist/compiled/babel/bundle.js:1:86901)
+    at createDescriptor.next (<anonymous>)
+
+Import trace for requested module:
+./src/app/page.tsx
+
+
+> Build failed because of webpack errors
+[41m[30m ELIFECYCLE [39m[49m [31mCommand failed with exit code 1.[39m

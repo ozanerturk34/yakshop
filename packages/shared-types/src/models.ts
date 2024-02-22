@@ -21,3 +21,8 @@ export interface XmlHerd {
     }[];
   };
 }
+
+export interface Order {
+  milk?: number;
+  skins?: number;
+}

@@ -1,0 +1,53 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --foreground-rgb: 0, 0, 0;
+  --background-start-rgb: 214, 219, 220;
+  --background-end-rgb: 255, 255, 255;
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --foreground-rgb: 255, 255, 255;
+    --background-start-rgb: 0, 0, 0;
+    --background-end-rgb: 0, 0, 0;
+  }
+}
+
+body {
+  color: rgb(var(--foreground-rgb));
+  background: linear-gradient(
+      to bottom,
+      transparent,
+      rgb(var(--background-end-rgb))
+    )
+    rgb(var(--background-start-rgb));
+}
+
+div.time-machine-block {
+  @apply rounded-lg border border-transparent px-5 py-4 transition-colors hover:border-gray-300 hover:bg-gray-100 hover:dark:border-neutral-700 hover:dark:bg-neutral-800/30;
+}
+
+div.time-machine-block:hover {
+  cursor: pointer;
+}
+
+h2.time-machine-title {
+  @apply mb-3 text-2xl font-semibold select-none;
+}
+
+span.time-machine-icon {
+  @apply inline-block transition-transform group-hover:translate-x-1 motion-reduce:transform-none;
+}
+
+p.time-machine-text {
+  @apply m-0 max-w-[30ch] text-sm opacity-50 select-none;
+}
+
+@layer utilities {
+  .text-balance {
+    text-wrap: balance;
+  }
+}

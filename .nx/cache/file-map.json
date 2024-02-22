@@ -9,27 +9,138 @@
   "fileMap": {
     "nonProjectFiles": [
       {
+        "file": "pnpm-lock.yaml",
+        "hash": "11896763406726031087"
+      },
+      {
         "file": ".gitignore",
         "hash": "11612638887042922903"
       },
       {
+        "file": "pnpm-workspace.yaml",
+        "hash": "9750177317466281158"
+      },
+      {
         "file": "nx.json",
-        "hash": "2216320761187262993"
+        "hash": "7250085332002455441"
+      },
+      {
+        "file": "README.md",
+        "hash": "850635799054347910"
       },
       {
         "file": "package.json",
         "hash": "11356574832514112190"
-      },
-      {
-        "file": "pnpm-lock.yaml",
-        "hash": "11806748368587359757"
-      },
-      {
-        "file": "pnpm-workspace.yaml",
-        "hash": "9750177317466281158"
       }
     ],
     "projectFileMap": {
+      "yakshop-ui": [
+        {
+          "file": "apps/yakshop-ui/.eslintrc.json",
+          "hash": "10616060546436571437"
+        },
+        {
+          "file": "apps/yakshop-ui/.gitignore",
+          "hash": "15751075988610075934"
+        },
+        {
+          "file": "apps/yakshop-ui/README.md",
+          "hash": "12205685531602560652"
+        },
+        {
+          "file": "apps/yakshop-ui/next.config.mjs",
+          "hash": "6567081978241091914"
+        },
+        {
+          "file": "apps/yakshop-ui/package.json",
+          "hash": "3141478113813332219",
+          "deps": [
+            "npm:next",
+            "npm:react-dom",
+            "npm:react-toastify",
+            "shared-types",
+            "npm:@types/node",
+            "npm:@types/react",
+            "npm:@types/react-dom",
+            "npm:autoprefixer",
+            "npm:eslint",
+            "npm:eslint-config-next",
+            "npm:postcss",
+            "npm:react",
+            "npm:tailwindcss",
+            "npm:typescript"
+          ]
+        },
+        {
+          "file": "apps/yakshop-ui/postcss.config.js",
+          "hash": "8055263870272897227"
+        },
+        {
+          "file": "apps/yakshop-ui/public/yak.svg",
+          "hash": "224232241173056729"
+        },
+        {
+          "file": "apps/yakshop-ui/src/app/favicon.ico",
+          "hash": "9157999678830540297"
+        },
+        {
+          "file": "apps/yakshop-ui/src/app/globals.css",
+          "hash": "16396878890361819516"
+        },
+        {
+          "file": "apps/yakshop-ui/src/app/layout.tsx",
+          "hash": "14869893044596788660"
+        },
+        {
+          "file": "apps/yakshop-ui/src/app/order.ts",
+          "hash": "923278159618529807"
+        },
+        {
+          "file": "apps/yakshop-ui/src/app/orderBox.tsx",
+          "hash": "12527452793338665584"
+        },
+        {
+          "file": "apps/yakshop-ui/src/app/page.tsx",
+          "hash": "10275677621173448997"
+        },
+        {
+          "file": "apps/yakshop-ui/src/app/timeMachine.tsx",
+          "hash": "5137996162373402173"
+        },
+        {
+          "file": "apps/yakshop-ui/tailwind.config.ts",
+          "hash": "8266647255848899898"
+        },
+        {
+          "file": "apps/yakshop-ui/tsconfig.json",
+          "hash": "4320684160905164141"
+        }
+      ],
+      "shared-types": [
+        {
+          "file": "packages/shared-types/README.md",
+          "hash": "13646173934220707221"
+        },
+        {
+          "file": "packages/shared-types/package.json",
+          "hash": "112868870594697968",
+          "deps": [
+            "npm:typescript"
+          ]
+        },
+        {
+          "file": "packages/shared-types/src/index.ts",
+          "hash": "2074524706256101245"
+        },
+        {
+          "file": "packages/shared-types/src/models.ts",
+          "hash": "7136250111462528691"
+        },
+        {
+          "file": "packages/shared-types/tsconfig.json",
+          "hash": "17609371490828913548"
+        }
+      ],
       "xml-herd-builder": [
         {
           "file": "packages/xml-herd-builder/package.json",
@@ -82,14 +193,19 @@
         },
         {
           "file": "apps/yakshop-api/package.json",
-          "hash": "10065245554682637710",
+          "hash": "15878469359133866108",
           "deps": [
             "npm:@nestjs/common",
             "npm:@nestjs/core",
             "npm:@nestjs/platform-express",
+            "npm:@nestjs/typeorm",
+            "npm:class-transformer",
+            "npm:class-validator",
+            "npm:pg",
             "npm:reflect-metadata",
             "npm:rxjs",
             "shared-types",
+            "npm:typeorm",
             "xml-herd-builder",
             "npm:@nestjs/cli",
             "npm:@nestjs/schematics",
@@ -117,24 +233,136 @@
           ]
         },
         {
-          "file": "apps/yakshop-api/src/app.controller.spec.ts",
-          "hash": "6820863429723628382"
-        },
-        {
-          "file": "apps/yakshop-api/src/app.controller.ts",
-          "hash": "4552329938751326480"
-        },
-        {
           "file": "apps/yakshop-api/src/app.module.ts",
-          "hash": "11673476679848632172"
+          "hash": "15826877509572771335"
         },
         {
-          "file": "apps/yakshop-api/src/app.service.ts",
-          "hash": "1323195476305646483"
+          "file": "apps/yakshop-api/src/herd/herd.controller.spec.ts",
+          "hash": "17652707123874336460"
+        },
+        {
+          "file": "apps/yakshop-api/src/herd/herd.controller.ts",
+          "hash": "15371578512062183161"
+        },
+        {
+          "file": "apps/yakshop-api/src/herd/herd.dto.ts",
+          "hash": "9597962692093261421"
+        },
+        {
+          "file": "apps/yakshop-api/src/herd/herd.module.ts",
+          "hash": "9864565750248635296"
+        },
+        {
+          "file": "apps/yakshop-api/src/herd/herd.service.spec.ts",
+          "hash": "9847288652285249843"
+        },
+        {
+          "file": "apps/yakshop-api/src/herd/herd.service.ts",
+          "hash": "18101802518116290902"
         },
         {
           "file": "apps/yakshop-api/src/main.ts",
-          "hash": "16836780892212170881"
+          "hash": "15131319408650688289"
+        },
+        {
+          "file": "apps/yakshop-api/src/order/order-with-customer-info.dto.ts",
+          "hash": "17597888895233805675"
+        },
+        {
+          "file": "apps/yakshop-api/src/order/order.controller.spec.ts",
+          "hash": "1040972934437541290"
+        },
+        {
+          "file": "apps/yakshop-api/src/order/order.controller.ts",
+          "hash": "13365701710659973386"
+        },
+        {
+          "file": "apps/yakshop-api/src/order/order.dto.ts",
+          "hash": "490536631655864828"
+        },
+        {
+          "file": "apps/yakshop-api/src/order/order.entity.ts",
+          "hash": "16809359455608516485"
+        },
+        {
+          "file": "apps/yakshop-api/src/order/order.module.ts",
+          "hash": "10629834723672095591"
+        },
+        {
+          "file": "apps/yakshop-api/src/order/order.repository.ts",
+          "hash": "7299857462696656320"
+        },
+        {
+          "file": "apps/yakshop-api/src/order/order.service.spec.ts",
+          "hash": "17730628090213521311"
+        },
+        {
+          "file": "apps/yakshop-api/src/order/order.service.ts",
+          "hash": "18133066927151826226"
+        },
+        {
+          "file": "apps/yakshop-api/src/stock-generator/stock-generator.module.ts",
+          "hash": "428743315064330080"
+        },
+        {
+          "file": "apps/yakshop-api/src/stock-generator/stock-generator.service.spec.ts",
+          "hash": "13955737420812359618"
+        },
+        {
+          "file": "apps/yakshop-api/src/stock-generator/stock-generator.service.ts",
+          "hash": "15995433391361828472"
+        },
+        {
+          "file": "apps/yakshop-api/src/stock/stock.controller.spec.ts",
+          "hash": "16696760466036258743"
+        },
+        {
+          "file": "apps/yakshop-api/src/stock/stock.controller.ts",
+          "hash": "2680778924189355907"
+        },
+        {
+          "file": "apps/yakshop-api/src/stock/stock.dto.ts",
+          "hash": "6352961544174969001"
+        },
+        {
+          "file": "apps/yakshop-api/src/stock/stock.module.ts",
+          "hash": "764448191307339731"
+        },
+        {
+          "file": "apps/yakshop-api/src/stock/stock.service.spec.ts",
+          "hash": "6042178585346464456"
+        },
+        {
+          "file": "apps/yakshop-api/src/stock/stock.service.ts",
+          "hash": "5660723638271906512"
+        },
+        {
+          "file": "apps/yakshop-api/src/yak/create-yak.dto.ts",
+          "hash": "9687235593169022545"
+        },
+        {
+          "file": "apps/yakshop-api/src/yak/yak.dto.ts",
+          "hash": "5200559532343863617"
+        },
+        {
+          "file": "apps/yakshop-api/src/yak/yak.entity.ts",
+          "hash": "218754606186493670"
+        },
+        {
+          "file": "apps/yakshop-api/src/yak/yak.module.ts",
+          "hash": "6370326580645981262"
+        },
+        {
+          "file": "apps/yakshop-api/src/yak/yak.repository.ts",
+          "hash": "14022534215096366510"
+        },
+        {
+          "file": "apps/yakshop-api/src/yak/yak.service.spec.ts",
+          "hash": "9024563800855011270"
+        },
+        {
+          "file": "apps/yakshop-api/src/yak/yak.service.ts",
+          "hash": "14036264455473092502"
         },
         {
           "file": "apps/yakshop-api/test/app.e2e-spec.ts",
@@ -151,31 +379,6 @@
         {
           "file": "apps/yakshop-api/tsconfig.json",
           "hash": "997308860317313382"
-        }
-      ],
-      "shared-types": [
-        {
-          "file": "packages/shared-types/README.md",
-          "hash": "13646173934220707221"
-        },
-        {
-          "file": "packages/shared-types/package.json",
-          "hash": "112868870594697968",
-          "deps": [
-            "npm:typescript"
-          ]
-        },
-        {
-          "file": "packages/shared-types/src/index.ts",
-          "hash": "2074524706256101245"
-        },
-        {
-          "file": "packages/shared-types/src/models.ts",
-          "hash": "5710800092114625949"
-        },
-        {
-          "file": "packages/shared-types/tsconfig.json",
-          "hash": "17609371490828913548"
         }
       ]
     }

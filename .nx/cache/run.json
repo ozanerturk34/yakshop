@@ -1,8 +1,8 @@
 {
   "run": {
-    "command": "nx run-many --target=build --all",
-    "startTime": "2024-02-21T15:41:53.997Z",
-    "endTime": "2024-02-21T15:41:58.488Z",
+    "command": "nx affected:build",
+    "startTime": "2024-02-22T01:15:20.400Z",
+    "endTime": "2024-02-22T01:15:28.770Z",
     "inner": false
   },
   "tasks": [
@@ -10,31 +10,42 @@
       "taskId": "shared-types:build",
       "target": "build",
       "projectName": "shared-types",
-      "hash": "344797292437247794",
-      "startTime": "2024-02-21T15:41:54.005Z",
-      "endTime": "2024-02-21T15:41:55.044Z",
+      "hash": "3754394755959642829",
+      "startTime": "2024-02-22T01:15:20.405Z",
+      "endTime": "2024-02-22T01:15:20.452Z",
       "params": "",
-      "cacheStatus": "cache-miss",
+      "cacheStatus": "local-cache-hit",
       "status": 0
     },
     {
       "taskId": "xml-herd-builder:build",
       "target": "build",
       "projectName": "xml-herd-builder",
-      "hash": "1357527608971941069",
-      "startTime": "2024-02-21T15:41:55.045Z",
-      "endTime": "2024-02-21T15:41:56.217Z",
+      "hash": "14323471035167859626",
+      "startTime": "2024-02-22T01:15:20.460Z",
+      "endTime": "2024-02-22T01:15:20.470Z",
       "params": "",
-      "cacheStatus": "cache-miss",
+      "cacheStatus": "local-cache-hit",
       "status": 0
     },
     {
       "taskId": "yakshop-api:build",
       "target": "build",
       "projectName": "yakshop-api",
-      "hash": "15894634609728608570",
-      "startTime": "2024-02-21T15:41:56.218Z",
-      "endTime": "2024-02-21T15:41:58.488Z",
+      "hash": "10400498615035616244",
+      "startTime": "2024-02-22T01:15:20.479Z",
+      "endTime": "2024-02-22T01:15:20.489Z",
+      "params": "",
+      "cacheStatus": "local-cache-hit",
+      "status": 0
+    },
+    {
+      "taskId": "yakshop-ui:build",
+      "target": "build",
+      "projectName": "yakshop-ui",
+      "hash": "3656175358971113934",
+      "startTime": "2024-02-22T01:15:20.460Z",
+      "endTime": "2024-02-22T01:15:28.769Z",
       "params": "",
       "cacheStatus": "cache-miss",
       "status": 0

@@ -18,6 +18,9 @@
     "test": {
       "inputs": ["noMarkdown", "^noMarkdown"]
     },
+    "dev": {
+      "dependsOn": ["^build"]
+    },
     "start": {
       "dependsOn": ["^build"]
     },
