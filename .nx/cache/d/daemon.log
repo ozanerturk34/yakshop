@@ -7716,3 +7716,244 @@ Node.js v20.10.0
 [NX Daemon Server] - 2024-02-22T03:26:23.540Z - Done responding to the client recordOutputsHash
 [NX Daemon Server] - 2024-02-22T03:26:23.540Z - Handled RECORD_OUTPUTS_HASH. Handling time: 0. Response time: 0.
 [NX Daemon Server] - 2024-02-22T03:26:23.545Z - Closed a connection. Number of open connections: 1
+[NX Daemon Server] - 2024-02-22T03:26:29.092Z - [REQUEST]: Updated workspace context based on watched changes, recomputing project graph...
+[NX Daemon Server] - 2024-02-22T03:26:29.093Z - [REQUEST]: apps/yakshop-api/src/stock-generator/stock-generator.service.ts
+[NX Daemon Server] - 2024-02-22T03:26:29.093Z - [REQUEST]: 
+[NX Daemon Server] - 2024-02-22T03:26:29.131Z - Time taken for 'hash changed files from watcher' 1.5012919902801514ms
+[NX Daemon Server] - 2024-02-22T03:27:06.240Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-02-22T03:27:06.240Z - [WATCHER]: 0 file(s) created or restored, 1 file(s) modified, 1 file(s) deleted
+[NX Daemon Server] - 2024-02-22T03:27:09.358Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-02-22T03:27:09.359Z - [WATCHER]: 1 file(s) created or restored, 0 file(s) modified, 1 file(s) deleted
+[NX Daemon Server] - 2024-02-22T03:27:12.643Z - [REQUEST]: Updated workspace context based on watched changes, recomputing project graph...
+[NX Daemon Server] - 2024-02-22T03:27:12.643Z - [REQUEST]: apps/yakshop-api/data/herdasd.xml,apps/yakshop-api/data/herd.xml
+[NX Daemon Server] - 2024-02-22T03:27:12.643Z - [REQUEST]: apps/yakshop-api/data/herd copy.xml
+[NX Daemon Server] - 2024-02-22T03:27:12.672Z - Time taken for 'hash changed files from watcher' 0.6469169855117798ms
+[NX Daemon Server] - 2024-02-22T03:27:14.322Z - Established a connection. Number of open connections: 2
+[NX Daemon Server] - 2024-02-22T03:27:14.323Z - Closed a connection. Number of open connections: 1
+[NX Daemon Server] - 2024-02-22T03:27:14.323Z - Established a connection. Number of open connections: 2
+[NX Daemon Server] - 2024-02-22T03:27:14.324Z - [REQUEST]: Client Request for Project Graph Received
+[NX Daemon Server] - 2024-02-22T03:27:14.324Z - [REQUEST]: Responding to the client. project-graph
+[NX Daemon Server] - 2024-02-22T03:27:14.325Z - Time taken for 'total for creating and serializing project graph' 0.05533397197723389ms
+[NX Daemon Server] - 2024-02-22T03:27:14.327Z - Done responding to the client project-graph
+[NX Daemon Server] - 2024-02-22T03:27:14.327Z - Handled REQUEST_PROJECT_GRAPH. Handling time: 0. Response time: 3.
+[NX Daemon Server] - 2024-02-22T03:27:14.348Z - [REQUEST]: Responding to the client. handleHashTasks
+[NX Daemon Server] - 2024-02-22T03:27:14.348Z - Done responding to the client handleHashTasks
+[NX Daemon Server] - 2024-02-22T03:27:14.348Z - Handled HASH_TASKS. Handling time: 7. Response time: 0.
+[NX Daemon Server] - 2024-02-22T03:27:14.416Z - [REQUEST]: Responding to the client. outputsHashesMatch
+[NX Daemon Server] - 2024-02-22T03:27:14.416Z - Done responding to the client outputsHashesMatch
+[NX Daemon Server] - 2024-02-22T03:27:14.416Z - Handled OUTPUTS_HASHES_MATCH. Handling time: 4. Response time: 0.
+[NX Daemon Server] - 2024-02-22T03:27:14.419Z - [REQUEST]: Responding to the client. recordOutputsHash
+[NX Daemon Server] - 2024-02-22T03:27:14.419Z - Done responding to the client recordOutputsHash
+[NX Daemon Server] - 2024-02-22T03:27:14.419Z - Handled RECORD_OUTPUTS_HASH. Handling time: 3. Response time: 0.
+[NX Daemon Server] - 2024-02-22T03:27:14.423Z - [REQUEST]: Responding to the client. outputsHashesMatch
+[NX Daemon Server] - 2024-02-22T03:27:14.424Z - Done responding to the client outputsHashesMatch
+[NX Daemon Server] - 2024-02-22T03:27:14.424Z - Handled OUTPUTS_HASHES_MATCH. Handling time: 2. Response time: 1.
+[NX Daemon Server] - 2024-02-22T03:27:14.427Z - [REQUEST]: Responding to the client. recordOutputsHash
+[NX Daemon Server] - 2024-02-22T03:27:14.427Z - Done responding to the client recordOutputsHash
+[NX Daemon Server] - 2024-02-22T03:27:14.427Z - Handled RECORD_OUTPUTS_HASH. Handling time: 3. Response time: 0.
+[NX Daemon Server] - 2024-02-22T03:27:15.468Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-02-22T03:27:16.740Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-02-22T03:27:16.794Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-02-22T03:30:07.070Z - [REQUEST]: Responding to the client. recordOutputsHash
+[NX Daemon Server] - 2024-02-22T03:30:07.070Z - Done responding to the client recordOutputsHash
+[NX Daemon Server] - 2024-02-22T03:30:07.070Z - Handled RECORD_OUTPUTS_HASH. Handling time: 0. Response time: 0.
+[NX Daemon Server] - 2024-02-22T03:30:07.074Z - Closed a connection. Number of open connections: 1
+[NX Daemon Server] - 2024-02-22T03:30:12.401Z - Established a connection. Number of open connections: 2
+[NX Daemon Server] - 2024-02-22T03:30:12.401Z - Closed a connection. Number of open connections: 1
+[NX Daemon Server] - 2024-02-22T03:30:12.401Z - Established a connection. Number of open connections: 2
+[NX Daemon Server] - 2024-02-22T03:30:12.402Z - [REQUEST]: Client Request for Project Graph Received
+[NX Daemon Server] - 2024-02-22T03:30:12.402Z - [REQUEST]: Responding to the client. project-graph
+[NX Daemon Server] - 2024-02-22T03:30:12.403Z - Time taken for 'total for creating and serializing project graph' 0.07754099369049072ms
+[NX Daemon Server] - 2024-02-22T03:30:12.405Z - Done responding to the client project-graph
+[NX Daemon Server] - 2024-02-22T03:30:12.405Z - Handled REQUEST_PROJECT_GRAPH. Handling time: 0. Response time: 3.
+[NX Daemon Server] - 2024-02-22T03:30:12.424Z - [REQUEST]: Responding to the client. handleHashTasks
+[NX Daemon Server] - 2024-02-22T03:30:12.424Z - Done responding to the client handleHashTasks
+[NX Daemon Server] - 2024-02-22T03:30:12.424Z - Handled HASH_TASKS. Handling time: 5. Response time: 0.
+[NX Daemon Server] - 2024-02-22T03:30:12.467Z - [REQUEST]: Responding to the client. outputsHashesMatch
+[NX Daemon Server] - 2024-02-22T03:30:12.467Z - Done responding to the client outputsHashesMatch
+[NX Daemon Server] - 2024-02-22T03:30:12.467Z - Handled OUTPUTS_HASHES_MATCH. Handling time: 4. Response time: 0.
+[NX Daemon Server] - 2024-02-22T03:30:12.470Z - [REQUEST]: Responding to the client. recordOutputsHash
+[NX Daemon Server] - 2024-02-22T03:30:12.470Z - Done responding to the client recordOutputsHash
+[NX Daemon Server] - 2024-02-22T03:30:12.470Z - Handled RECORD_OUTPUTS_HASH. Handling time: 3. Response time: 0.
+[NX Daemon Server] - 2024-02-22T03:30:12.477Z - [REQUEST]: Responding to the client. outputsHashesMatch
+[NX Daemon Server] - 2024-02-22T03:30:12.477Z - Done responding to the client outputsHashesMatch
+[NX Daemon Server] - 2024-02-22T03:30:12.477Z - Handled OUTPUTS_HASHES_MATCH. Handling time: 5. Response time: 0.
+[NX Daemon Server] - 2024-02-22T03:30:12.481Z - [REQUEST]: Responding to the client. recordOutputsHash
+[NX Daemon Server] - 2024-02-22T03:30:12.481Z - Done responding to the client recordOutputsHash
+[NX Daemon Server] - 2024-02-22T03:30:12.481Z - Handled RECORD_OUTPUTS_HASH. Handling time: 3. Response time: 0.
+[NX Daemon Server] - 2024-02-22T03:30:13.536Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-02-22T03:30:14.912Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-02-22T03:30:14.965Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-02-22T03:30:15.016Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-02-22T03:31:07.553Z - [REQUEST]: Responding to the client. recordOutputsHash
+[NX Daemon Server] - 2024-02-22T03:31:07.553Z - Done responding to the client recordOutputsHash
+[NX Daemon Server] - 2024-02-22T03:31:07.553Z - Handled RECORD_OUTPUTS_HASH. Handling time: 0. Response time: 0.
+[NX Daemon Server] - 2024-02-22T03:31:07.557Z - Closed a connection. Number of open connections: 1
+[NX Daemon Server] - 2024-02-22T03:36:34.536Z - [WATCHER]: apps/yakshop-api/src/stock-generator/stock-generator.worker.ts was created or restored
+[NX Daemon Server] - 2024-02-22T03:36:34.536Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-02-22T03:36:34.637Z - [REQUEST]: Updated workspace context based on watched changes, recomputing project graph...
+[NX Daemon Server] - 2024-02-22T03:36:34.638Z - [REQUEST]: apps/yakshop-api/src/stock-generator/stock-generator.worker.ts
+[NX Daemon Server] - 2024-02-22T03:36:34.638Z - [REQUEST]: 
+[NX Daemon Server] - 2024-02-22T03:36:34.667Z - Time taken for 'hash changed files from watcher' 0.5732499957084656ms
+[NX Daemon Server] - 2024-02-22T03:36:48.954Z - [WATCHER]: apps/yakshop-api/src/stock-generator/stock-generator.worker.ts was modified
+[NX Daemon Server] - 2024-02-22T03:36:48.954Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-02-22T03:36:49.155Z - [REQUEST]: Updated workspace context based on watched changes, recomputing project graph...
+[NX Daemon Server] - 2024-02-22T03:36:49.155Z - [REQUEST]: apps/yakshop-api/src/stock-generator/stock-generator.worker.ts
+[NX Daemon Server] - 2024-02-22T03:36:49.155Z - [REQUEST]: 
+[NX Daemon Server] - 2024-02-22T03:36:49.174Z - Time taken for 'hash changed files from watcher' 0.3478749990463257ms
+[NX Daemon Server] - 2024-02-22T03:37:12.541Z - [WATCHER]: apps/yakshop-api/src/stock-generator/stock-generator.service.ts was modified
+[NX Daemon Server] - 2024-02-22T03:37:12.541Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-02-22T03:37:12.942Z - [REQUEST]: Updated workspace context based on watched changes, recomputing project graph...
+[NX Daemon Server] - 2024-02-22T03:37:12.942Z - [REQUEST]: apps/yakshop-api/src/stock-generator/stock-generator.service.ts
+[NX Daemon Server] - 2024-02-22T03:37:12.942Z - [REQUEST]: 
+[NX Daemon Server] - 2024-02-22T03:37:12.958Z - Time taken for 'hash changed files from watcher' 0.19483399391174316ms
+[NX Daemon Server] - 2024-02-22T03:37:30.265Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-02-22T03:37:30.265Z - [WATCHER]: apps/yakshop-api/src/stock-generator/stock-generator.service.ts was modified
+[NX Daemon Server] - 2024-02-22T03:37:31.067Z - [REQUEST]: Updated workspace context based on watched changes, recomputing project graph...
+[NX Daemon Server] - 2024-02-22T03:37:31.067Z - [REQUEST]: apps/yakshop-api/src/stock-generator/stock-generator.service.ts
+[NX Daemon Server] - 2024-02-22T03:37:31.067Z - [REQUEST]: 
+[NX Daemon Server] - 2024-02-22T03:37:31.095Z - Time taken for 'hash changed files from watcher' 0.6153340339660645ms
+[NX Daemon Server] - 2024-02-22T03:41:11.176Z - [WATCHER]: apps/yakshop-api/src/stock-generator/stock-generator.service.ts was modified
+[NX Daemon Server] - 2024-02-22T03:41:11.176Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-02-22T03:41:12.778Z - [REQUEST]: Updated workspace context based on watched changes, recomputing project graph...
+[NX Daemon Server] - 2024-02-22T03:41:12.778Z - [REQUEST]: apps/yakshop-api/src/stock-generator/stock-generator.service.ts
+[NX Daemon Server] - 2024-02-22T03:41:12.778Z - [REQUEST]: 
+[NX Daemon Server] - 2024-02-22T03:41:12.814Z - Time taken for 'hash changed files from watcher' 0.7452080249786377ms
+[NX Daemon Server] - 2024-02-22T03:41:15.957Z - [WATCHER]: apps/yakshop-api/src/stock-generator/stock-generator.worker.ts was deleted
+[NX Daemon Server] - 2024-02-22T03:41:15.958Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-02-22T03:41:19.158Z - [REQUEST]: Updated workspace context based on watched changes, recomputing project graph...
+[NX Daemon Server] - 2024-02-22T03:41:19.158Z - [REQUEST]: 
+[NX Daemon Server] - 2024-02-22T03:41:19.158Z - [REQUEST]: apps/yakshop-api/src/stock-generator/stock-generator.worker.ts
+[NX Daemon Server] - 2024-02-22T03:41:19.186Z - Time taken for 'hash changed files from watcher' 0.07404100894927979ms
+[NX Daemon Server] - 2024-02-22T04:10:48.710Z - [WATCHER]: apps/yakshop-api/src/order/order.controller.ts was modified
+[NX Daemon Server] - 2024-02-22T04:10:48.710Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-02-22T04:10:55.112Z - [REQUEST]: Updated workspace context based on watched changes, recomputing project graph...
+[NX Daemon Server] - 2024-02-22T04:10:55.112Z - [REQUEST]: apps/yakshop-api/src/order/order.controller.ts
+[NX Daemon Server] - 2024-02-22T04:10:55.112Z - [REQUEST]: 
+[NX Daemon Server] - 2024-02-22T04:10:55.133Z - Time taken for 'hash changed files from watcher' 0.34391599893569946ms
+[NX Daemon Server] - 2024-02-22T04:11:32.181Z - [WATCHER]: apps/yakshop-api/src/order/order.controller.ts was modified
+[NX Daemon Server] - 2024-02-22T04:11:32.181Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-02-22T04:11:38.583Z - [REQUEST]: Updated workspace context based on watched changes, recomputing project graph...
+[NX Daemon Server] - 2024-02-22T04:11:38.584Z - [REQUEST]: apps/yakshop-api/src/order/order.controller.ts
+[NX Daemon Server] - 2024-02-22T04:11:38.584Z - [REQUEST]: 
+[NX Daemon Server] - 2024-02-22T04:11:38.601Z - Time taken for 'hash changed files from watcher' 0.33500003814697266ms
+[NX Daemon Server] - 2024-02-22T04:14:20.217Z - [WATCHER]: apps/yakshop-api/src/order/order.service.ts was modified
+[NX Daemon Server] - 2024-02-22T04:14:20.217Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-02-22T04:14:26.619Z - [REQUEST]: Updated workspace context based on watched changes, recomputing project graph...
+[NX Daemon Server] - 2024-02-22T04:14:26.619Z - [REQUEST]: apps/yakshop-api/src/order/order.service.ts
+[NX Daemon Server] - 2024-02-22T04:14:26.619Z - [REQUEST]: 
+[NX Daemon Server] - 2024-02-22T04:14:26.659Z - Time taken for 'hash changed files from watcher' 0.34287500381469727ms
+[NX Daemon Server] - 2024-02-22T04:15:33.839Z - [WATCHER]: apps/yakshop-api/src/order/order.service.ts was modified
+[NX Daemon Server] - 2024-02-22T04:15:33.840Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-02-22T04:15:40.242Z - [REQUEST]: Updated workspace context based on watched changes, recomputing project graph...
+[NX Daemon Server] - 2024-02-22T04:15:40.242Z - [REQUEST]: apps/yakshop-api/src/order/order.service.ts
+[NX Daemon Server] - 2024-02-22T04:15:40.242Z - [REQUEST]: 
+[NX Daemon Server] - 2024-02-22T04:15:40.261Z - Time taken for 'hash changed files from watcher' 0.4765409827232361ms
+[NX Daemon Server] - 2024-02-22T04:16:03.220Z - [WATCHER]: apps/yakshop-api/src/order/order.service.ts was modified
+[NX Daemon Server] - 2024-02-22T04:16:03.220Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-02-22T04:16:09.621Z - [REQUEST]: Updated workspace context based on watched changes, recomputing project graph...
+[NX Daemon Server] - 2024-02-22T04:16:09.621Z - [REQUEST]: apps/yakshop-api/src/order/order.service.ts
+[NX Daemon Server] - 2024-02-22T04:16:09.621Z - [REQUEST]: 
+[NX Daemon Server] - 2024-02-22T04:16:09.642Z - Time taken for 'hash changed files from watcher' 0.36366701126098633ms
+[NX Daemon Server] - 2024-02-22T04:16:12.494Z - Established a connection. Number of open connections: 2
+[NX Daemon Server] - 2024-02-22T04:16:12.494Z - Closed a connection. Number of open connections: 1
+[NX Daemon Server] - 2024-02-22T04:16:12.495Z - Established a connection. Number of open connections: 2
+[NX Daemon Server] - 2024-02-22T04:16:12.496Z - [REQUEST]: Client Request for Project Graph Received
+[NX Daemon Server] - 2024-02-22T04:16:12.496Z - [REQUEST]: Responding to the client. project-graph
+[NX Daemon Server] - 2024-02-22T04:16:12.497Z - Time taken for 'total for creating and serializing project graph' 0.0555419921875ms
+[NX Daemon Server] - 2024-02-22T04:16:12.499Z - Done responding to the client project-graph
+[NX Daemon Server] - 2024-02-22T04:16:12.499Z - Handled REQUEST_PROJECT_GRAPH. Handling time: 0. Response time: 3.
+[NX Daemon Server] - 2024-02-22T04:16:12.520Z - [REQUEST]: Responding to the client. handleHashTasks
+[NX Daemon Server] - 2024-02-22T04:16:12.520Z - Done responding to the client handleHashTasks
+[NX Daemon Server] - 2024-02-22T04:16:12.520Z - Handled HASH_TASKS. Handling time: 7. Response time: 0.
+[NX Daemon Server] - 2024-02-22T04:16:12.588Z - [REQUEST]: Responding to the client. outputsHashesMatch
+[NX Daemon Server] - 2024-02-22T04:16:12.588Z - Done responding to the client outputsHashesMatch
+[NX Daemon Server] - 2024-02-22T04:16:12.588Z - Handled OUTPUTS_HASHES_MATCH. Handling time: 8. Response time: 0.
+[NX Daemon Server] - 2024-02-22T04:16:12.596Z - [REQUEST]: Responding to the client. recordOutputsHash
+[NX Daemon Server] - 2024-02-22T04:16:12.596Z - Done responding to the client recordOutputsHash
+[NX Daemon Server] - 2024-02-22T04:16:12.596Z - Handled RECORD_OUTPUTS_HASH. Handling time: 7. Response time: 0.
+[NX Daemon Server] - 2024-02-22T04:16:12.605Z - [REQUEST]: Responding to the client. outputsHashesMatch
+[NX Daemon Server] - 2024-02-22T04:16:12.605Z - Done responding to the client outputsHashesMatch
+[NX Daemon Server] - 2024-02-22T04:16:12.605Z - Handled OUTPUTS_HASHES_MATCH. Handling time: 7. Response time: 0.
+[NX Daemon Server] - 2024-02-22T04:16:12.611Z - [REQUEST]: Responding to the client. recordOutputsHash
+[NX Daemon Server] - 2024-02-22T04:16:12.611Z - Done responding to the client recordOutputsHash
+[NX Daemon Server] - 2024-02-22T04:16:12.611Z - Handled RECORD_OUTPUTS_HASH. Handling time: 6. Response time: 0.
+[NX Daemon Server] - 2024-02-22T04:16:13.678Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-02-22T04:16:14.964Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-02-22T04:16:15.018Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-02-22T04:16:15.084Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-02-22T04:18:23.983Z - [WATCHER]: 1 file(s) created or restored, 0 file(s) modified, 1 file(s) deleted
+[NX Daemon Server] - 2024-02-22T04:18:23.983Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-02-22T04:18:24.085Z - [REQUEST]: Updated workspace context based on watched changes, recomputing project graph...
+[NX Daemon Server] - 2024-02-22T04:18:24.085Z - [REQUEST]: apps/yakshop-api/data/herd.example.xml
+[NX Daemon Server] - 2024-02-22T04:18:24.085Z - [REQUEST]: apps/yakshop-api/data/herd.xml
+[NX Daemon Server] - 2024-02-22T04:18:24.106Z - Time taken for 'hash changed files from watcher' 0.5877500176429749ms
+[NX Daemon Server] - 2024-02-22T04:18:29.694Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-02-22T04:18:29.695Z - [WATCHER]: 0 file(s) created or restored, 1 file(s) modified, 1 file(s) deleted
+[NX Daemon Server] - 2024-02-22T04:18:29.897Z - [REQUEST]: Updated workspace context based on watched changes, recomputing project graph...
+[NX Daemon Server] - 2024-02-22T04:18:29.897Z - [REQUEST]: apps/yakshop-api/data/herd.xml
+[NX Daemon Server] - 2024-02-22T04:18:29.897Z - [REQUEST]: apps/yakshop-api/data/herdasd.xml
+[NX Daemon Server] - 2024-02-22T04:18:29.923Z - Time taken for 'hash changed files from watcher' 0.34937500953674316ms
+[NX Daemon Server] - 2024-02-22T04:19:09.934Z - [REQUEST]: Responding to the client. recordOutputsHash
+[NX Daemon Server] - 2024-02-22T04:19:09.934Z - Done responding to the client recordOutputsHash
+[NX Daemon Server] - 2024-02-22T04:19:09.934Z - Handled RECORD_OUTPUTS_HASH. Handling time: 0. Response time: 0.
+[NX Daemon Server] - 2024-02-22T04:19:09.938Z - Closed a connection. Number of open connections: 1
+[NX Daemon Server] - 2024-02-22T04:19:11.936Z - Established a connection. Number of open connections: 2
+[NX Daemon Server] - 2024-02-22T04:19:11.936Z - Closed a connection. Number of open connections: 1
+[NX Daemon Server] - 2024-02-22T04:19:11.936Z - Established a connection. Number of open connections: 2
+[NX Daemon Server] - 2024-02-22T04:19:11.937Z - [REQUEST]: Client Request for Project Graph Received
+[NX Daemon Server] - 2024-02-22T04:19:11.937Z - [REQUEST]: Responding to the client. project-graph
+[NX Daemon Server] - 2024-02-22T04:19:11.938Z - Time taken for 'total for creating and serializing project graph' 0.08899998664855957ms
+[NX Daemon Server] - 2024-02-22T04:19:11.940Z - Done responding to the client project-graph
+[NX Daemon Server] - 2024-02-22T04:19:11.940Z - Handled REQUEST_PROJECT_GRAPH. Handling time: 0. Response time: 3.
+[NX Daemon Server] - 2024-02-22T04:19:11.960Z - [REQUEST]: Responding to the client. handleHashTasks
+[NX Daemon Server] - 2024-02-22T04:19:11.960Z - Done responding to the client handleHashTasks
+[NX Daemon Server] - 2024-02-22T04:19:11.960Z - Handled HASH_TASKS. Handling time: 8. Response time: 0.
+[NX Daemon Server] - 2024-02-22T04:19:12.023Z - [REQUEST]: Responding to the client. outputsHashesMatch
+[NX Daemon Server] - 2024-02-22T04:19:12.023Z - Done responding to the client outputsHashesMatch
+[NX Daemon Server] - 2024-02-22T04:19:12.023Z - Handled OUTPUTS_HASHES_MATCH. Handling time: 8. Response time: 0.
+[NX Daemon Server] - 2024-02-22T04:19:12.031Z - [REQUEST]: Responding to the client. recordOutputsHash
+[NX Daemon Server] - 2024-02-22T04:19:12.031Z - Done responding to the client recordOutputsHash
+[NX Daemon Server] - 2024-02-22T04:19:12.031Z - Handled RECORD_OUTPUTS_HASH. Handling time: 7. Response time: 0.
+[NX Daemon Server] - 2024-02-22T04:19:12.041Z - [REQUEST]: Responding to the client. outputsHashesMatch
+[NX Daemon Server] - 2024-02-22T04:19:12.041Z - Done responding to the client outputsHashesMatch
+[NX Daemon Server] - 2024-02-22T04:19:12.041Z - Handled OUTPUTS_HASHES_MATCH. Handling time: 8. Response time: 0.
+[NX Daemon Server] - 2024-02-22T04:19:12.048Z - [REQUEST]: Responding to the client. recordOutputsHash
+[NX Daemon Server] - 2024-02-22T04:19:12.048Z - Done responding to the client recordOutputsHash
+[NX Daemon Server] - 2024-02-22T04:19:12.048Z - Handled RECORD_OUTPUTS_HASH. Handling time: 6. Response time: 0.
+[NX Daemon Server] - 2024-02-22T04:19:13.152Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-02-22T04:19:14.456Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-02-22T04:19:14.508Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-02-22T04:19:14.578Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-02-22T04:21:41.259Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-02-22T04:21:41.260Z - [WATCHER]: apps/yakshop-api/src/order/order.service.ts was modified
+[NX Daemon Server] - 2024-02-22T04:21:41.360Z - [REQUEST]: Updated workspace context based on watched changes, recomputing project graph...
+[NX Daemon Server] - 2024-02-22T04:21:41.360Z - [REQUEST]: apps/yakshop-api/src/order/order.service.ts
+[NX Daemon Server] - 2024-02-22T04:21:41.360Z - [REQUEST]: 
+[NX Daemon Server] - 2024-02-22T04:21:41.382Z - Time taken for 'hash changed files from watcher' 0.3655419945716858ms
+[NX Daemon Server] - 2024-02-22T04:21:41.576Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-02-22T04:22:02.495Z - [WATCHER]: apps/yakshop-api/src/order/order.service.ts was modified
+[NX Daemon Server] - 2024-02-22T04:22:02.495Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-02-22T04:22:02.697Z - [REQUEST]: Updated workspace context based on watched changes, recomputing project graph...
+[NX Daemon Server] - 2024-02-22T04:22:02.697Z - [REQUEST]: apps/yakshop-api/src/order/order.service.ts
+[NX Daemon Server] - 2024-02-22T04:22:02.697Z - [REQUEST]: 
+[NX Daemon Server] - 2024-02-22T04:22:02.719Z - Time taken for 'hash changed files from watcher' 0.46037501096725464ms
+[NX Daemon Server] - 2024-02-22T04:22:02.779Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-02-22T04:23:04.791Z - [WATCHER]: apps/yakshop-api/src/order/order.service.ts was modified
+[NX Daemon Server] - 2024-02-22T04:23:04.791Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-02-22T04:23:05.087Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-02-22T04:23:05.192Z - [REQUEST]: Updated workspace context based on watched changes, recomputing project graph...
+[NX Daemon Server] - 2024-02-22T04:23:05.192Z - [REQUEST]: apps/yakshop-api/src/order/order.service.ts
+[NX Daemon Server] - 2024-02-22T04:23:05.192Z - [REQUEST]: 
+[NX Daemon Server] - 2024-02-22T04:23:05.208Z - Time taken for 'hash changed files from watcher' 0.22804200649261475ms
+[NX Daemon Server] - 2024-02-22T04:24:55.548Z - [WATCHER]: apps/yakshop-api/src/order/order.controller.ts was modified
+[NX Daemon Server] - 2024-02-22T04:24:55.548Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-02-22T04:24:55.828Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-02-22T04:24:56.349Z - [REQUEST]: Updated workspace context based on watched changes, recomputing project graph...
+[NX Daemon Server] - 2024-02-22T04:24:56.350Z - [REQUEST]: apps/yakshop-api/src/order/order.controller.ts
+[NX Daemon Server] - 2024-02-22T04:24:56.350Z - [REQUEST]: 
+[NX Daemon Server] - 2024-02-22T04:24:56.369Z - Time taken for 'hash changed files from watcher' 0.17033398151397705ms
+[NX Daemon Server] - 2024-02-22T05:28:29.108Z - [REQUEST]: Responding to the client. recordOutputsHash
+[NX Daemon Server] - 2024-02-22T05:28:29.108Z - Done responding to the client recordOutputsHash
+[NX Daemon Server] - 2024-02-22T05:28:29.108Z - Handled RECORD_OUTPUTS_HASH. Handling time: 0. Response time: 0.
+[NX Daemon Server] - 2024-02-22T05:28:29.113Z - Closed a connection. Number of open connections: 1

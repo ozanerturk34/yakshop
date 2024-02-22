@@ -9,20 +9,20 @@
   "fileMap": {
     "nonProjectFiles": [
       {
-        "file": "package.json",
-        "hash": "11356574832514112190"
-      },
-      {
-        "file": "nx.json",
-        "hash": "7250085332002455441"
-      },
-      {
         "file": ".gitignore",
         "hash": "11612638887042922903"
       },
       {
         "file": "README.md",
         "hash": "9246016625879661540"
+      },
+      {
+        "file": "package.json",
+        "hash": "11356574832514112190"
+      },
+      {
+        "file": "nx.json",
+        "hash": "7250085332002455441"
       },
       {
         "file": "pnpm-lock.yaml",
@@ -184,10 +184,6 @@
           "hash": "7000741120820144227"
         },
         {
-          "file": "apps/yakshop-api/data/herd.xml",
-          "hash": "9044850537635879109"
-        },
-        {
           "file": "apps/yakshop-api/nest-cli.json",
           "hash": "789240945379598733"
         },
@@ -274,7 +270,7 @@
         },
         {
           "file": "apps/yakshop-api/src/order/order.controller.ts",
-          "hash": "13365701710659973386"
+          "hash": "12911660434020683027"
         },
         {
           "file": "apps/yakshop-api/src/order/order.dto.ts",
@@ -298,7 +294,7 @@
         },
         {
           "file": "apps/yakshop-api/src/order/order.service.ts",
-          "hash": "18133066927151826226"
+          "hash": "8521063235590512944"
         },
         {
           "file": "apps/yakshop-api/src/stock-generator/stock-generator.module.ts",
@@ -381,8 +377,12 @@
           "hash": "997308860317313382"
         },
         {
-          "file": "apps/yakshop-api/data/herd copy.xml",
+          "file": "apps/yakshop-api/data/herd.example.xml",
           "hash": "17871255225187506246"
+        },
+        {
+          "file": "apps/yakshop-api/data/herd.xml",
+          "hash": "9044850537635879109"
         }
       ]
     }
