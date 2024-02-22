@@ -1,29 +1,0 @@
-
-> yakshop-ui@0.1.0 build /Users/serturk/Documents/code/yakshop/apps/yakshop-ui
-> next build
-
-  [1m[38;2;173;127;168m ▲ Next.js 14.1.0[39m[22m
-
- [37m[1m [22m[39m Creating an optimized production build ...
- [32m[1m✓[22m[39m Compiled successfully
- [37m[1m [22m[39m Linting and checking validity of types ...
- [37m[1m [22m[39m Collecting page data ...
- [37m[1m [22m[39m Generating static pages (0/5) ...
- [37m[1m [22m[39m Generating static pages (1/5) 
- [37m[1m [22m[39m Generating static pages (2/5) 
- [37m[1m [22m[39m Generating static pages (3/5) 
- [32m[1m✓[22m[39m Generating static pages (5/5) 
- [37m[1m [22m[39m Finalizing page optimization ...
- [37m[1m [22m[39m Collecting build traces ...
-
-[4mRoute (app)[24m                              [4mSize[24m     [4mFirst Load JS[24m
-┌ ○ /                                    12.2 kB        [37m[1m96.4 kB[22m[39m
-└ ○ /_not-found                          883 B          [37m[1m85.1 kB[22m[39m
-+ First Load JS shared by all            [37m[1m84.2 kB[22m[39m
-  ├ chunks/14720756-b266eb4d59ce9987.js  53.4 kB
-  ├ chunks/726-56f069175cfbec9d.js       28.9 kB
-  └ other shared chunks (total)          1.91 kB
-
-
-○  (Static)  prerendered as static content
-

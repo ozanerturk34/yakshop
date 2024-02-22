@@ -1,4 +1,0 @@
-
-> shared-types@1.0.0 build /Users/serturk/Documents/code/yakshop/packages/shared-types
-> rm -rf dist && tsc
-

@@ -1,4 +1,0 @@
-
-> xml-herd-builder@1.0.0 build
-> rm -rf dist && tsc
-

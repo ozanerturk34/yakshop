@@ -1,4 +1,0 @@
-
-> xml-herd-builder@1.0.0 build /Users/serturk/Documents/code/yakshop/packages/xml-herd-builder
-> rm -rf dist && tsc
-
