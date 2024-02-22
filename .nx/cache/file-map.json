@@ -9,12 +9,12 @@
   "fileMap": {
     "nonProjectFiles": [
       {
-        "file": "pnpm-lock.yaml",
-        "hash": "11896763406726031087"
-      },
-      {
         "file": ".gitignore",
         "hash": "11612638887042922903"
+      },
+      {
+        "file": "package.json",
+        "hash": "11356574832514112190"
       },
       {
         "file": "pnpm-workspace.yaml",
@@ -25,12 +25,12 @@
         "hash": "7250085332002455441"
       },
       {
-        "file": "README.md",
-        "hash": "850635799054347910"
+        "file": "pnpm-lock.yaml",
+        "hash": "11896763406726031087"
       },
       {
-        "file": "package.json",
-        "hash": "11356574832514112190"
+        "file": "README.md",
+        "hash": "9246016625879661540"
       }
     ],
     "projectFileMap": {

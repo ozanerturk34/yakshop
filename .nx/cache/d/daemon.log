@@ -7591,3 +7591,9 @@ Node.js v20.10.0
 [NX Daemon Server] - 2024-02-22T01:22:26.570Z - [REQUEST]: README.md
 [NX Daemon Server] - 2024-02-22T01:22:26.570Z - [REQUEST]: 
 [NX Daemon Server] - 2024-02-22T01:22:26.597Z - Time taken for 'hash changed files from watcher' 0.5930410027503967ms
+[NX Daemon Server] - 2024-02-22T01:37:35.498Z - [WATCHER]: README.md was modified
+[NX Daemon Server] - 2024-02-22T01:37:35.498Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-02-22T01:37:37.101Z - [REQUEST]: Updated workspace context based on watched changes, recomputing project graph...
+[NX Daemon Server] - 2024-02-22T01:37:37.102Z - [REQUEST]: README.md
+[NX Daemon Server] - 2024-02-22T01:37:37.102Z - [REQUEST]: 
+[NX Daemon Server] - 2024-02-22T01:37:37.144Z - Time taken for 'hash changed files from watcher' 1.7758340239524841ms
