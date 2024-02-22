@@ -9,28 +9,28 @@
   "fileMap": {
     "nonProjectFiles": [
       {
-        "file": ".gitignore",
-        "hash": "11612638887042922903"
-      },
-      {
         "file": "package.json",
         "hash": "11356574832514112190"
-      },
-      {
-        "file": "pnpm-workspace.yaml",
-        "hash": "9750177317466281158"
       },
       {
         "file": "nx.json",
         "hash": "7250085332002455441"
       },
       {
-        "file": "pnpm-lock.yaml",
-        "hash": "11896763406726031087"
+        "file": ".gitignore",
+        "hash": "11612638887042922903"
       },
       {
         "file": "README.md",
         "hash": "9246016625879661540"
+      },
+      {
+        "file": "pnpm-lock.yaml",
+        "hash": "11896763406726031087"
+      },
+      {
+        "file": "pnpm-workspace.yaml",
+        "hash": "9750177317466281158"
       }
     ],
     "projectFileMap": {
@@ -310,7 +310,7 @@
         },
         {
           "file": "apps/yakshop-api/src/stock-generator/stock-generator.service.ts",
-          "hash": "15995433391361828472"
+          "hash": "8811281445028702145"
         },
         {
           "file": "apps/yakshop-api/src/stock/stock.controller.spec.ts",
@@ -379,6 +379,10 @@
         {
           "file": "apps/yakshop-api/tsconfig.json",
           "hash": "997308860317313382"
+        },
+        {
+          "file": "apps/yakshop-api/data/herd copy.xml",
+          "hash": "17871255225187506246"
         }
       ]
     }

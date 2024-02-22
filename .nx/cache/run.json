@@ -1,8 +1,8 @@
 {
   "run": {
-    "command": "nx affected:build",
-    "startTime": "2024-02-22T01:15:20.400Z",
-    "endTime": "2024-02-22T01:15:28.770Z",
+    "command": "nx start:dev yakshop-api",
+    "startTime": "2024-02-22T03:16:31.898Z",
+    "endTime": "2024-02-22T03:26:23.541Z",
     "inner": false
   },
   "tasks": [
@@ -11,8 +11,8 @@
       "target": "build",
       "projectName": "shared-types",
       "hash": "3754394755959642829",
-      "startTime": "2024-02-22T01:15:20.405Z",
-      "endTime": "2024-02-22T01:15:20.452Z",
+      "startTime": "2024-02-22T03:16:31.906Z",
+      "endTime": "2024-02-22T03:16:31.964Z",
       "params": "",
       "cacheStatus": "local-cache-hit",
       "status": 0
@@ -22,30 +22,19 @@
       "target": "build",
       "projectName": "xml-herd-builder",
       "hash": "14323471035167859626",
-      "startTime": "2024-02-22T01:15:20.460Z",
-      "endTime": "2024-02-22T01:15:20.470Z",
+      "startTime": "2024-02-22T03:16:31.967Z",
+      "endTime": "2024-02-22T03:16:31.971Z",
       "params": "",
       "cacheStatus": "local-cache-hit",
       "status": 0
     },
     {
-      "taskId": "yakshop-api:build",
-      "target": "build",
+      "taskId": "yakshop-api:start:dev",
+      "target": "start:dev",
       "projectName": "yakshop-api",
-      "hash": "10400498615035616244",
-      "startTime": "2024-02-22T01:15:20.479Z",
-      "endTime": "2024-02-22T01:15:20.489Z",
-      "params": "",
-      "cacheStatus": "local-cache-hit",
-      "status": 0
-    },
-    {
-      "taskId": "yakshop-ui:build",
-      "target": "build",
-      "projectName": "yakshop-ui",
-      "hash": "3656175358971113934",
-      "startTime": "2024-02-22T01:15:20.460Z",
-      "endTime": "2024-02-22T01:15:28.769Z",
+      "hash": "6983192732180887837",
+      "startTime": "2024-02-22T03:16:31.974Z",
+      "endTime": "2024-02-22T03:26:23.540Z",
       "params": "",
       "cacheStatus": "cache-miss",
       "status": 0
